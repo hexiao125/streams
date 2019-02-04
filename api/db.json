@@ -1,25 +1,22 @@
 {
   "streams": [
     {
-      "title": "my stream",
-      "description": "this is great",
-      "id": 1
-    },
-    {
-      "title": "my stream",
-      "description": "this is great",
-      "id": 2
-    },
-    {
-      "title": "a new stream",
-      "description": "changed changed",
-      "id": 3
-    },
-    {
       "title": "hello",
       "description": "world",
       "userId": "114904289668255722032",
       "id": 5
+    },
+    {
+      "title": "stream1",
+      "description": "stream1",
+      "userId": "114904289668255722032",
+      "id": 6
+    },
+    {
+      "title": "stream2",
+      "description": "stream2",
+      "userId": "114904289668255722032",
+      "id": 7
     }
   ]
 }
