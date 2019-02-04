@@ -16,9 +16,13 @@ class StreamShow extends React.Component {
         this.props.fetchStream(id);
         this.buildPlayer();
     }
-
+    
     componentDidUpdate() {
         this.buildPlayer();
+    }
+
+    componentWillUnmount() {
+        this.player.destroy();
     }
 
     buildPlayer() {
